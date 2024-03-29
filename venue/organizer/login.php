@@ -20,7 +20,19 @@
     <link rel="stylesheet" href="../assets/css/owl.css">
     <link rel="stylesheet" href="../assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-
+    <style>
+      body {
+    font-family: 'Poppins', sans-serif;
+    
+    color: #333333;
+    background: linear-gradient(to top, #30cfd0 0%, #330867 100% )!important;
+  }
+  h3{
+    color:#ee626b;
+    text-transform:uppercase;
+    text-align:center;
+  }
+    </style>
   </head>
 
 <body>
@@ -54,7 +66,7 @@
         </div>
         <div class="col-lg-4">
           <div class="section-heading" style="width:100%;">
-            <h6>| Organizer Login</h6>
+            <h3> Organizer Login</h3>
           </div>
           <form class="contact-form" id="organizerlogin" style="margin-left:0px !important;" action="" method="post">
           <input type="hidden" name="action" value="organizer">

@@ -117,6 +117,7 @@ Global Styles
 html,
 body {
   font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%) !important;
 }
 
 ::selection {
@@ -1197,7 +1198,7 @@ Properties Style
 }
 
 .properties .item ul {
-  border-bottom: 1px solid #eaeaea;
+  /* border-bottom: 1px solid #eaeaea; */
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
@@ -1355,6 +1356,7 @@ footer p {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
+  margin-left: 49%;
 }
 
 footer p a {
@@ -1601,7 +1603,7 @@ Contact Page Style
 
 .contact-page .section-heading {
   margin-bottom: 40px;
-  margin-right: 280px;
+  /* margin-right: 280px; */
 }
 
 .contact-page p {

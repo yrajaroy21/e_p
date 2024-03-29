@@ -37,7 +37,7 @@ if(!isset($_SESSION["organizer_logged_in"])){
 <style>
   .header-area {
     position: relative;
-    background-color: #2e92c5 !important;
+    background-color: #fff !important;
     height: 100px;
     z-index: 100;
     -webkit-transition: all .5s ease 0s;

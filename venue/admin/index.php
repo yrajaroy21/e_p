@@ -39,7 +39,7 @@ $VenuesList = getAllVenues($conn);
    
     body {
     font-family: 'Poppins', sans-serif;
-    background-color: #E0FFFF; /* Light Blue background color */
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100% )!important;
     color: #333333;
   }
 
@@ -63,6 +63,16 @@ $VenuesList = getAllVenues($conn);
     .orange-button:hover {
         color: #9B59B6; /* Purple text color on hover */
     }
+    .properties .item ul {
+    /* border-bottom: 1px solid #eaeaea; */
+    margin-bottom: -29px;
+    padding-bottom: 30px;
+}
+h1{
+  color: lightcoral;
+    text-transform: uppercase;
+
+}
 </style>
     </style>
 
@@ -71,7 +81,7 @@ $VenuesList = getAllVenues($conn);
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
           <div class="section-heading text-center">
-            <h6>Venues</h6>
+            <h1>Venues</h1>
           </div>
         </div>
       </div>

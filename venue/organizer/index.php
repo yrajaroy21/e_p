@@ -6,8 +6,13 @@ $EventCategories = getAllEventCategories($conn);
 
 ?>
 
-
-
+<style>
+  h3{
+    text-align:center;
+    text-transform:uppercase;
+    color:#ee656b;
+  }
+</style>
   <div class="contact-page section">
     <div class="container">
       <div class="row">
@@ -135,7 +140,7 @@ $EventCategories = getAllEventCategories($conn);
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
           <div class="section-heading text-center">
-            <h6>Venues</h6>
+            <h3>Venues</h3>
           </div>
         </div>
       </div>

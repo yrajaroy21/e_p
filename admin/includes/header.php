@@ -48,7 +48,7 @@ if(!isset($_SESSION["admin_logged_in"])){
   .header-area {
     position: relative;
     background-color: #2e92c5 !important;
-    height: 100px;
+    height: 90px;
     z-index: 100;
     -webkit-transition: all .5s ease 0s;
     -moz-transition: all .5s ease 0s;

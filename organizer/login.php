@@ -33,10 +33,16 @@
     margin-right: 62px;
     
 }
+body {
+    font-family: 'Poppins', sans-serif;
+    
+    color: #333333;
+    background: linear-gradient(to top, #30cfd0 0%, #330867 100% )!important;
+  }
 .header-area {
     position: relative;
-    background-color: #2e92c5;
-    height: 100px;
+    background-color: #fff;
+    height: 90px;
     z-index: 100;
     -webkit-transition: all .5s ease 0s;
     -moz-transition: all .5s ease 0s;
@@ -44,9 +50,7 @@
     transition: all .5s ease 0s;
 }
 </style>
-<body>
-
-
+<body style="background-image: linear-gradient(to top, #30cfd0 0%, #330867 100% );"!important>
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
@@ -129,5 +133,5 @@
   <script src="../assets/js/custom.js"></script>
   <script src="../assets/js/script.js"></script>
 
-  </body>
+</body>
 </html>

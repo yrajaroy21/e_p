@@ -7,9 +7,22 @@ $VenuesList = getAllVenues($conn);
 <style>
     body {
       font-family: 'Poppins', sans-serif;
-      background-color: #E0FFFF; /* Light Blue background color */
-      color: #333333;
+      background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%) !important;
+      color: #ffff;
     }
+    tr,td,th{
+        color:#fff;
+    }
+    tr .odd{
+        color:#fff;
+    }
+    tr .even{
+        color:#fff;
+    }
+    .table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+    color: #ffffff;
+}
     </style>
 
   <div class="properties section">

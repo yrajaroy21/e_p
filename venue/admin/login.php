@@ -24,7 +24,7 @@
     <style>
     body {
       font-family: 'Poppins', sans-serif;
-      background-color: #E0FFFF; /* Light Blue background color */
+      background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%) !important;
       color: #333333;
     }
 
@@ -44,13 +44,22 @@
     /* Add more styles as needed */
     .header-area {
     position: relative;
-    background-color: #2e92c5 !important;
-    height: 100px;
+    background-color: #fff !important;
+    height: 90px;
     z-index: 100;
     -webkit-transition: all .5s ease 0s;
     -moz-transition: all .5s ease 0s;
     -o-transition: all .5s ease 0s;
     transition: all .5s ease 0s;
+}
+h3{
+  color:#ee626b;
+  text-transform:uppercase;
+  text-align:center;
+}
+.contact-page .section-heading {
+    margin-bottom: 40px;
+    /* margin-right: 280px; */
 }
   </style>
 
@@ -89,7 +98,7 @@
         </div>
         <div class="col-lg-4">
           <div class="section-heading">
-            <h6>| Admin Login</h6>
+            <h3>Admin Login</h3>
           </div>
           <form class="contact-form" id="adminlogin" style="margin-left:0px !important;" action="" method="post">
           <input type="hidden" name="action" value="admin">

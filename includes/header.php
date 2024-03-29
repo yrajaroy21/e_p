@@ -47,23 +47,6 @@ if(isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true){
 </style>
 <body>
 
-<div class="sub-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-8">
-          
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <ul class="social-links">
-            <li><a href="https://www.facebook.com/SIMATSSAVEETHA/"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/simats_univ?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://in.linkedin.com/in/saveetha-institute-of-medical-and-technical-sciences-879287184"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/simatsengineering/"><i class="fab fa-instagram"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-</div>
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">

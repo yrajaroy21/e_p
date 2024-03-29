@@ -29,7 +29,40 @@ if(isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true){
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<style>
+  /* Custom CSS for Header Area */
+.header-area {
+    background-color: #5491ba; /* Set background color */
+    padding: 20px 0; /* Add padding to the top and bottom */
+}
 
+.header-area .logo h1 {
+    color: #fff; /* Set text color for the logo */
+    font-size: 24px; /* Set font size for the logo */
+    margin: 0; /* Remove default margins */
+}
+
+.header-area .nav {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    list-style-type: none; /* Remove list styling */
+}
+
+.header-area .nav li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add space between list items */
+}
+
+.header-area .nav li a {
+    color: #fff; /* Set text color for menu items */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Set font size for menu items */
+}
+
+.header-area .nav li a:hover {
+    color: #ffd700; /* Change text color on hover */
+}
+</style>
   </head>
 
 <body>
@@ -48,7 +81,7 @@ if(isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true){
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.php" class="logo">
-                        <h1>EVENT PLANNER</h1>
+                        <h1>EVENTPLANNER</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->

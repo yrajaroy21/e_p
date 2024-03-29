@@ -37,14 +37,20 @@ if(!isset($_SESSION["organizer_logged_in"])){
 <style>
   .header-area {
     position: relative;
-    background-color: #2e92c5 !important;
-    height: 100px;
+    background-color: #fff !important;
+    height: 70px;
     z-index: 100;
     -webkit-transition: all .5s ease 0s;
     -moz-transition: all .5s ease 0s;
     -o-transition: all .5s ease 0s;
     transition: all .5s ease 0s;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+     /* Light Blue background color */
+    color: #333333;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100% )!important;
+  }
 </style>
   </head>
 

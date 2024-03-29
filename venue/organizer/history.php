@@ -15,7 +15,37 @@ $VenuesList = getAllVenues($conn);
       </div>
     </div>
   </div>
-
+<style>
+    tr,td,th{
+        color:#fff;
+    }
+    tr .odd{
+        color:#fff;
+    }
+    tr .even{
+        color:#fff;
+    }
+    .table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+    color: #ffffff;
+}
+.dt-buttons{
+    color:#ffff;
+}
+label{
+color:#fff;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    cursor: default;
+    color: #fff !important;
+    border: 1px solid transparent;
+    background: transparent;
+    box-shadow: none;
+}
+.dataTables_wrapper .dataTables_info{
+    color:#fff;
+}
+</style>
  
 <script type="text/javascript" src="../assets/js/jquery-1.12.4.min.js"></script>
 
